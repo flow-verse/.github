@@ -14,8 +14,9 @@ Basic Pitch, RAVE, PipeWire) and adding the missing glue: AI on the timeline, li
 | [flux-docs](https://github.com/flow-verse/flux-docs) | Manual, architecture docs, website | Markdown / Docusaurus |
 
 ## Status
-- **Now:** AI bridge. `flux-ai` separates stems (Demucs) and transcribes to MIDI (Basic Pitch); a Rust client runs it as a worker process.
-- **Next:** CLAP plugin wrapper (nih-plug), Zrythm fork in `flux-host`, real installer.
+- **Done:** `flux-ai` (Demucs stems, Basic Pitch to MIDI), a Rust worker client, a CLAP plugin that captures audio and runs it (tested in a minimal CLAP host), and the Zrythm 2 base imported into `flux-host`.
+- **Now:** build `flux-host`, then rebrand it (Zrythm's name and logo cannot be used in modified builds).
+- **Next:** return stems to the host as tracks, real installer, docs site.
 - **Later:** stage layer (Link/OSC/DMX/spatial), edge crowd sensing.
 
 Work is tracked as issues grouped into phase milestones (P1 Foundation ... P7 Edge) in each repo.
